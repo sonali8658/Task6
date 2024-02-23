@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Registration Form</title>
+</head>
+<body>
+    <table align="center" border="2px solid blue">
+        <caption><b>Patient Registration form</b></caption>
+        <form>
+
+       
+        <tr>
+            <td>
+                <label>Patient Name</label>
+            </td>
+            <td>
+                <input type="text" name="patientFirstname" action="" method="post" placeholder="FirstName">
+            </td>
+            <td>
+                <input type="text" name="patientLastname" action="" method="post" placeholder="lastName" >
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Gender</label>
+            </td>
+            <td>
+                <input type="radio"  name="gender" value="Male">Male
+            </td>
+            <td>
+                <input type="radio" name="gender" value="Female">FeMale
+            </td>
+           
+           
+        </tr>
+        <tr>
+            <td>
+                <label>Phone</label>
+            </td>
+            <td>
+                <input type="number" name="phone">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Date of Birth</label>
+            </td>
+            <td>
+                <input type="date" name="date">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="radio"  name="status" value="single">Single
+            </td>
+            <td>
+                <input type="radio" name="status" value="Married">Married
+            </td>
+            <td>
+                <input type="radio"  name="status" value="Divorced">Divorced
+            </td>
+            <td>
+                <input type="radio" name="status" value="Widow">Widow
+            </td>  
+        </tr>
+        <tr>
+            <td>
+                <label>Patient Address</label>
+            </td>
+            <td>
+                <input type="text" name="address">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Insurance Name</label>
+            </td>
+            <td>
+                <input type="text" name="insurancename">
+            </td>
+
+        </tr>
+        <tr>
+           <td> <label>Past Medical History</label></td><br>
+               <br>
+            
+            <td>
+                <input type="checkbox" value="anaeimia">anaeimia
+            <br>
+            <input type="checkbox" value="pneumonia">pneumonia<br>
+             <input type="checkbox" value="ptyphoied">ptyphoied<br>
+             <input type="checkbox" value="ulcer">ulcer<br>
+             <input type="checkbox" value="bronchaitosis">bronchaitosis
+            </td><br>
+        </tr>
+        <tr>
+            <td>
+                <label>Varification</label>
+            </td>
+            <td>
+                <input type="checkbox" value="I m not robot">I m not robot
+            </td>
+           
+        </tr>
+        <tr>
+           <td>
+            <input type="submit">
+           </td>
+        </tr>
+    </form>
+    </table>
+</body>
+</html>
